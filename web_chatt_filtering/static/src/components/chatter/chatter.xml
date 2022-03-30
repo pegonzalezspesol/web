@@ -1,0 +1,19 @@
+<?xml version="1.0" encoding="UTF-8" ?>
+<templates xml:space="preserve">
+    <t t-inherit="mail.Chatter" t-inherit-mode="extension">
+        <xpath expr="//ThreadView" position="before">
+            <div class="wrapper">
+                <span class="inline">
+                    <input
+                        id="search_partner"
+                        type="search"
+                        class="search-query form-control oe_search_box"
+                        placeholder="Search by author or content..."
+                        t-att-value="search_partner"
+                        t-on-keydown="chatter.onKeydownSearchPartner"
+                    />
+                </span>
+            </div>
+        </xpath>
+    </t>
+</templates>
