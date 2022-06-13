@@ -11,8 +11,18 @@
     "Odoo Community Association (OCA)",
     "license": "AGPL-3",
     "website": "https://github.com/OCA/web",
-    "version": "13.0.1.0.0",
+    "version": "15.0.1.0.0",
     "depends": ["mail"],
-    "data": ["views/templates.xml"],
-    "qweb": ["static/src/xml/chatter.xml"],
+    "data": [],
+    "assets": {
+        "mail.assets_discuss_public": [
+            "web_chatt_filtering/static/src/models/chatter/chatter.esm.js"
+        ],
+        "web.assets_backend": [
+            "web_chatt_filtering/static/src/models/chatter/chatter.esm.js"
+        ],
+        "web.assets_qweb": [
+            "web_chatt_filtering/static/src/components/chatter/chatter.xml"
+        ],
+    },
 }

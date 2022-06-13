@@ -1,2 +1,5 @@
-* Pedro Evaristo Gonzalez Sanchez <pedro.gonzalez@pesol.es>
+* `Pesol <https://www.pesol.es>`__:
+
+  * Pedro Evaristo Gonzalez Sanchez <pedro.gonzalez@pesol.es>
+
 * Saulius Zylys <saulius.zylys@pesol.es>
